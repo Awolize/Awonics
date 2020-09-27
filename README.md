@@ -4,6 +4,6 @@
 ```root dir$ docker-compose up -d --build```
 
 ## PostgreSQL
-Port: 5423 (default)
-Username: postgres
-Password: Defined in .env
+Port: 5423 (default)  
+Username: postgres  
+Password: Defined in .env  
