@@ -1,0 +1,16 @@
+FROM node:alpine
+
+WORKDIR /app
+
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
+
+COPY package*.json ./
+
+RUN npm install --silent
+
+COPY . ./
+
+EXPOSE 5423
+
+CMD ["npm", "run", "setup"]

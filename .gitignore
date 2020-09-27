@@ -1,0 +1,6 @@
+PostgreSQL
+.env
+
+**node_modules
+**.dist
+**.cache
