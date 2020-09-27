@@ -1,6 +1,6 @@
 # Awonics
 
-Local esp8266 -> API -> Database 
+Local esp8266 -> API -> Database  
 Database -> API -> Website
 
 Docker-compose will create 3 containers; **PostgreSQL**, **API Server** and a **React front-end**.
