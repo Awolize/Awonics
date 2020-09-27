@@ -6,4 +6,4 @@
 ## PostgreSQL
 + Port: 5423 (default)  
 + Username: postgres  
-+ Password: Defined in .env  
++ Password: *defined in .env*
